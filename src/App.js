@@ -1,6 +1,7 @@
 import './App.css';
-import Example from './components/3-11.Portal/Example';
-import Component from './components/3-14.PropTypes/Component';
+import StyledComponent from './components/StyledComponents/StyledComponent';
+// import Example from './components/3-11.Portal/Example';
+// import Component from './components/3-14.PropTypes/Component';
 // import Example from './components/3-10.Context/Example';
 // import Button from './components/3-7.HOC/Button';
 // import Input from './components/3-7.HOC/Input';
@@ -41,7 +42,8 @@ function App() {
       {/* <Memo /> */}
       {/* <Example /> */}
       {/* <Example /> */}
-      <Component />
+      {/* <Component /> */}
+      <StyledComponent />
     </div>
   );
 }
